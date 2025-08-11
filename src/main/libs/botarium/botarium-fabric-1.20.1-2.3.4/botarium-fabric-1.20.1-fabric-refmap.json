@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "earth/terrarium/botarium/mixin/BlockEntityMixin": {
+      "load": "Lnet/minecraft/class_2586;method_11014(Lnet/minecraft/class_2487;)V",
+      "saveAdditional": "Lnet/minecraft/class_2586;method_11007(Lnet/minecraft/class_2487;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "earth/terrarium/botarium/mixin/BlockEntityMixin": {
+        "load": "Lnet/minecraft/class_2586;method_11014(Lnet/minecraft/class_2487;)V",
+        "saveAdditional": "Lnet/minecraft/class_2586;method_11007(Lnet/minecraft/class_2487;)V"
+      }
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "mappings": {
+    "earth/terrarium/adastra/mixins/client/AbstractContainerScreenMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;translate(FFF)V": "Lnet/minecraft/class_4587;method_46416(FFF)V",
+      "renderSlot": "Lnet/minecraft/class_465;method_2385(Lnet/minecraft/class_332;Lnet/minecraft/class_1735;)V"
+    },
+    "earth/terrarium/adastra/mixins/client/CameraMixin": {
+      "setup": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V"
+    },
+    "earth/terrarium/adastra/mixins/client/EntityRendererMixin": {
+      "shouldRender": "Lnet/minecraft/class_897;method_3933(Lnet/minecraft/class_1297;Lnet/minecraft/class_4604;DDD)Z"
+    },
+    "earth/terrarium/adastra/mixins/client/HumanoidModelMixin": {
+      "setupAnim*": "Lnet/minecraft/class_572;method_17087(Lnet/minecraft/class_1309;FFFFF)V"
+    },
+    "earth/terrarium/adastra/mixins/client/ItemInHandRendererMixin": {
+      "Lnet/minecraft/client/renderer/ItemInHandRenderer;renderArmWithItem(Lnet/minecraft/client/player/AbstractClientPlayer;FFLnet/minecraft/world/InteractionHand;FLnet/minecraft/world/item/ItemStack;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "renderArmWithItem": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "earth/terrarium/adastra/mixins/client/LevelRendererAccessor": {
+      "doesMobEffectBlockSky": "method_43788(Lnet/minecraft/class_4184;)Z",
+      "skyBuffer": "field_4087:Lnet/minecraft/class_291;",
+      "ticks": "field_4073:I"
+    },
+    "earth/terrarium/adastra/mixins/client/LevelRendererMixin": {
+      "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderTexture(ILnet/minecraft/resources/ResourceLocation;)V": "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderTexture(ILnet/minecraft/class_2960;)V",
+      "renderClouds": "Lnet/minecraft/class_761;method_3259(Lnet/minecraft/class_4587;Lorg/joml/Matrix4f;FDDD)V",
+      "renderSnowAndRain": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V",
+      "tickRain": "Lnet/minecraft/class_761;method_22713(Lnet/minecraft/class_4184;)V"
+    },
+    "earth/terrarium/adastra/mixins/client/PlayerRendererMixin": {
+      "renderHand": "Lnet/minecraft/class_1007;method_23205(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_742;Lnet/minecraft/class_630;Lnet/minecraft/class_630;)V"
+    },
+    "earth/terrarium/adastra/mixins/client/SoundEngineAccessor": {
+      "instanceToChannel": "field_18950:Ljava/util/Map;"
+    },
+    "earth/terrarium/adastra/mixins/client/SoundManagerAccessor": {
+      "soundEngine": "field_5590:Lnet/minecraft/class_1140;"
+    },
+    "earth/terrarium/adastra/mixins/client/SoundManagerMixin": {
+      "play": "Lnet/minecraft/class_1144;method_4873(Lnet/minecraft/class_1113;)V",
+      "playDelayed": "Lnet/minecraft/class_1144;method_4872(Lnet/minecraft/class_1113;I)V"
+    },
+    "earth/terrarium/adastra/mixins/client/multipart/ClientLevelEntityCallbacksMixin": {
+      "net.minecraft.client.multiplayer.ClientLevel$EntityCallbacks": "net/minecraft/class_638$class_5612",
+      "onTrackingEnd(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_638$class_5612;method_32130(Lnet/minecraft/class_1297;)V",
+      "onTrackingStart(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_638$class_5612;method_32129(Lnet/minecraft/class_1297;)V"
+    },
+    "earth/terrarium/adastra/mixins/client/multipart/EntityRenderDispatcherMixin": {
+      "Lnet/minecraft/client/renderer/LevelRenderer;renderLineBox(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/phys/AABB;FFFF)V": "Lnet/minecraft/class_761;method_22982(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lnet/minecraft/class_238;FFFF)V",
+      "renderHitbox": "Lnet/minecraft/class_898;method_3956(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lnet/minecraft/class_1297;F)V"
+    },
+    "earth/terrarium/adastra/mixins/common/EntityBelowWorldMixin": {
+      "onBelowWorld": "method_5825()V"
+    },
+    "earth/terrarium/adastra/mixins/common/LivingEntityAccessor": {
+      "jumping": "field_6282:Z"
+    },
+    "earth/terrarium/adastra/mixins/common/LivingEntityMixin": {
+      "causeFallDamage": "Lnet/minecraft/class_1309;method_5747(FFLnet/minecraft/class_1282;)Z",
+      "hurt": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z",
+      "stopRiding": "Lnet/minecraft/class_1309;method_5848()V",
+      "tick": "Lnet/minecraft/class_1309;method_5773()V",
+      "travel": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V"
+    },
+    "earth/terrarium/adastra/mixins/common/MobMixin": {
+      "checkSpawnObstruction": "Lnet/minecraft/class_1308;method_5957(Lnet/minecraft/class_4538;)Z"
+    },
+    "earth/terrarium/adastra/mixins/common/PlayerMixin": {
+      "wantsToStopRiding": "Lnet/minecraft/class_1657;method_21824()Z"
+    },
+    "earth/terrarium/adastra/mixins/common/ServerGamePacketListenerImplMixin": {
+      "tick": "Lnet/minecraft/class_3244;method_18784()V"
+    },
+    "earth/terrarium/adastra/mixins/common/ServerLevelMixin": {
+      "<init>": "Lnet/minecraft/class_3218;<init>(Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/class_32$class_5143;Lnet/minecraft/class_5268;Lnet/minecraft/class_5321;Lnet/minecraft/class_5363;Lnet/minecraft/class_3949;ZJLjava/util/List;ZLnet/minecraft/class_8565;)V",
+      "Lnet/minecraft/server/level/ServerLevel;setDayTime(J)V": "Lnet/minecraft/class_3218;method_29199(J)V",
+      "tick": "Lnet/minecraft/class_3218;method_18765(Ljava/util/function/BooleanSupplier;)V",
+      "tickChunk": "Lnet/minecraft/class_3218;method_18203(Lnet/minecraft/class_2818;I)V"
+    },
+    "earth/terrarium/adastra/mixins/common/SlotAccessor": {
+      "x": "field_7873:I",
+      "y": "field_7872:I"
+    },
+    "earth/terrarium/adastra/mixins/common/entities/CreeperMixin": {
+      "explodeCreeper": "Lnet/minecraft/class_1548;method_7006()V"
+    },
+    "earth/terrarium/adastra/mixins/common/entities/HoglinMixin": {
+      "finishConversion": "Lnet/minecraft/class_4760;method_26942(Lnet/minecraft/class_3218;)V"
+    },
+    "earth/terrarium/adastra/mixins/common/entities/ZoglinMixin": {
+      "isTargetable": "Lnet/minecraft/class_5136;method_26936(Lnet/minecraft/class_1309;)Z"
+    },
+    "earth/terrarium/adastra/mixins/common/environment/FlowingFluidMixin": {
+      "Lnet/minecraft/world/level/block/state/BlockState;isSolid()Z": "Lnet/minecraft/class_2680;method_51367()Z",
+      "getNewLiquid": "Lnet/minecraft/class_3609;method_15727(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_3610;",
+      "spread": "Lnet/minecraft/class_3609;method_15725(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;)V"
+    },
+    "earth/terrarium/adastra/mixins/common/environment/IceBlockMixin": {
+      "melt": "Lnet/minecraft/class_2386;method_10275(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V",
+      "playerDestroy": "Lnet/minecraft/class_2386;method_9556(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2586;Lnet/minecraft/class_1799;)V"
+    },
+    "earth/terrarium/adastra/mixins/common/environment/WeatheringCopperFullBlockMixin": {
+      "randomTick": "Lnet/minecraft/class_5812;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+    },
+    "earth/terrarium/adastra/mixins/common/gravity/AbstractArrowMixin": {
+      "tick": "Lnet/minecraft/class_1665;method_5773()V"
+    },
+    "earth/terrarium/adastra/mixins/common/gravity/BoatMixin": {
+      "floatBoat": "Lnet/minecraft/class_1690;method_7534()V"
+    },
+    "earth/terrarium/adastra/mixins/common/gravity/FishingHookMixin": {
+      "tick": "Lnet/minecraft/class_1536;method_5773()V"
+    },
+    "earth/terrarium/adastra/mixins/common/gravity/GravityEntityMixin": {
+      "tick": "method_5773()V"
+    },
+    "earth/terrarium/adastra/mixins/common/gravity/ThrowableProjectileMixin": {
+      "getGravity": "Lnet/minecraft/class_1682;method_7490()F"
+    },
+    "earth/terrarium/adastra/mixins/common/gravity/ThrownExperienceBottleMixin": {
+      "getGravity": "Lnet/minecraft/class_1683;method_7490()F"
+    },
+    "earth/terrarium/adastra/mixins/common/gravity/ThrownPotionMixin": {
+      "getGravity": "Lnet/minecraft/class_1686;method_7490()F"
+    },
+    "earth/terrarium/adastra/mixins/common/multipart/ChunkMapMixin": {
+      "addEntity": "Lnet/minecraft/class_3898;method_18701(Lnet/minecraft/class_1297;)V"
+    },
+    "earth/terrarium/adastra/mixins/common/multipart/ServerLevelEntityCallbacksMixin": {
+      "Lnet/minecraft/world/entity/Entity;updateDynamicGameEventListener(Ljava/util/function/BiConsumer;)V": "Lnet/minecraft/class_1297;method_42147(Ljava/util/function/BiConsumer;)V",
+      "net.minecraft.server.level.ServerLevel$EntityCallbacks": "net/minecraft/class_3218$class_5526",
+      "onTrackingEnd(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_3218$class_5526;method_31437(Lnet/minecraft/class_1297;)V",
+      "onTrackingStart(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_3218$class_5526;method_31436(Lnet/minecraft/class_1297;)V"
+    },
+    "earth/terrarium/adastra/mixins/common/multipart/ServerLevelMixin": {
+      "getEntityOrPart": "Lnet/minecraft/class_3218;method_31424(I)Lnet/minecraft/class_1297;"
+    },
+    "earth/terrarium/adastra/mixins/common/radio/LivingEntityMixin": {
+      "stopRiding": "Lnet/minecraft/class_1309;method_5848()V"
+    },
+    "earth/terrarium/adastra/mixins/common/radio/ServerPlayerMixin": {
+      "startRiding": "Lnet/minecraft/class_3222;method_5873(Lnet/minecraft/class_1297;Z)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "earth/terrarium/adastra/mixins/client/AbstractContainerScreenMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;translate(FFF)V": "Lnet/minecraft/class_4587;method_46416(FFF)V",
+        "renderSlot": "Lnet/minecraft/class_465;method_2385(Lnet/minecraft/class_332;Lnet/minecraft/class_1735;)V"
+      },
+      "earth/terrarium/adastra/mixins/client/CameraMixin": {
+        "setup": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V"
+      },
+      "earth/terrarium/adastra/mixins/client/EntityRendererMixin": {
+        "shouldRender": "Lnet/minecraft/class_897;method_3933(Lnet/minecraft/class_1297;Lnet/minecraft/class_4604;DDD)Z"
+      },
+      "earth/terrarium/adastra/mixins/client/HumanoidModelMixin": {
+        "setupAnim*": "Lnet/minecraft/class_572;method_17087(Lnet/minecraft/class_1309;FFFFF)V"
+      },
+      "earth/terrarium/adastra/mixins/client/ItemInHandRendererMixin": {
+        "Lnet/minecraft/client/renderer/ItemInHandRenderer;renderArmWithItem(Lnet/minecraft/client/player/AbstractClientPlayer;FFLnet/minecraft/world/InteractionHand;FLnet/minecraft/world/item/ItemStack;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "renderArmWithItem": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "earth/terrarium/adastra/mixins/client/LevelRendererAccessor": {
+        "doesMobEffectBlockSky": "method_43788(Lnet/minecraft/class_4184;)Z",
+        "skyBuffer": "field_4087:Lnet/minecraft/class_291;",
+        "ticks": "field_4073:I"
+      },
+      "earth/terrarium/adastra/mixins/client/LevelRendererMixin": {
+        "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderTexture(ILnet/minecraft/resources/ResourceLocation;)V": "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderTexture(ILnet/minecraft/class_2960;)V",
+        "renderClouds": "Lnet/minecraft/class_761;method_3259(Lnet/minecraft/class_4587;Lorg/joml/Matrix4f;FDDD)V",
+        "renderSnowAndRain": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V",
+        "tickRain": "Lnet/minecraft/class_761;method_22713(Lnet/minecraft/class_4184;)V"
+      },
+      "earth/terrarium/adastra/mixins/client/PlayerRendererMixin": {
+        "renderHand": "Lnet/minecraft/class_1007;method_23205(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_742;Lnet/minecraft/class_630;Lnet/minecraft/class_630;)V"
+      },
+      "earth/terrarium/adastra/mixins/client/SoundEngineAccessor": {
+        "instanceToChannel": "field_18950:Ljava/util/Map;"
+      },
+      "earth/terrarium/adastra/mixins/client/SoundManagerAccessor": {
+        "soundEngine": "field_5590:Lnet/minecraft/class_1140;"
+      },
+      "earth/terrarium/adastra/mixins/client/SoundManagerMixin": {
+        "play": "Lnet/minecraft/class_1144;method_4873(Lnet/minecraft/class_1113;)V",
+        "playDelayed": "Lnet/minecraft/class_1144;method_4872(Lnet/minecraft/class_1113;I)V"
+      },
+      "earth/terrarium/adastra/mixins/client/multipart/ClientLevelEntityCallbacksMixin": {
+        "net.minecraft.client.multiplayer.ClientLevel$EntityCallbacks": "net/minecraft/class_638$class_5612",
+        "onTrackingEnd(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_638$class_5612;method_32130(Lnet/minecraft/class_1297;)V",
+        "onTrackingStart(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_638$class_5612;method_32129(Lnet/minecraft/class_1297;)V"
+      },
+      "earth/terrarium/adastra/mixins/client/multipart/EntityRenderDispatcherMixin": {
+        "Lnet/minecraft/client/renderer/LevelRenderer;renderLineBox(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/phys/AABB;FFFF)V": "Lnet/minecraft/class_761;method_22982(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lnet/minecraft/class_238;FFFF)V",
+        "renderHitbox": "Lnet/minecraft/class_898;method_3956(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lnet/minecraft/class_1297;F)V"
+      },
+      "earth/terrarium/adastra/mixins/common/EntityBelowWorldMixin": {
+        "onBelowWorld": "method_5825()V"
+      },
+      "earth/terrarium/adastra/mixins/common/LivingEntityAccessor": {
+        "jumping": "field_6282:Z"
+      },
+      "earth/terrarium/adastra/mixins/common/LivingEntityMixin": {
+        "causeFallDamage": "Lnet/minecraft/class_1309;method_5747(FFLnet/minecraft/class_1282;)Z",
+        "hurt": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z",
+        "stopRiding": "Lnet/minecraft/class_1309;method_5848()V",
+        "tick": "Lnet/minecraft/class_1309;method_5773()V",
+        "travel": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V"
+      },
+      "earth/terrarium/adastra/mixins/common/MobMixin": {
+        "checkSpawnObstruction": "Lnet/minecraft/class_1308;method_5957(Lnet/minecraft/class_4538;)Z"
+      },
+      "earth/terrarium/adastra/mixins/common/PlayerMixin": {
+        "wantsToStopRiding": "Lnet/minecraft/class_1657;method_21824()Z"
+      },
+      "earth/terrarium/adastra/mixins/common/ServerGamePacketListenerImplMixin": {
+        "tick": "Lnet/minecraft/class_3244;method_18784()V"
+      },
+      "earth/terrarium/adastra/mixins/common/ServerLevelMixin": {
+        "<init>": "Lnet/minecraft/class_3218;<init>(Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/class_32$class_5143;Lnet/minecraft/class_5268;Lnet/minecraft/class_5321;Lnet/minecraft/class_5363;Lnet/minecraft/class_3949;ZJLjava/util/List;ZLnet/minecraft/class_8565;)V",
+        "Lnet/minecraft/server/level/ServerLevel;setDayTime(J)V": "Lnet/minecraft/class_3218;method_29199(J)V",
+        "tick": "Lnet/minecraft/class_3218;method_18765(Ljava/util/function/BooleanSupplier;)V",
+        "tickChunk": "Lnet/minecraft/class_3218;method_18203(Lnet/minecraft/class_2818;I)V"
+      },
+      "earth/terrarium/adastra/mixins/common/SlotAccessor": {
+        "x": "field_7873:I",
+        "y": "field_7872:I"
+      },
+      "earth/terrarium/adastra/mixins/common/entities/CreeperMixin": {
+        "explodeCreeper": "Lnet/minecraft/class_1548;method_7006()V"
+      },
+      "earth/terrarium/adastra/mixins/common/entities/HoglinMixin": {
+        "finishConversion": "Lnet/minecraft/class_4760;method_26942(Lnet/minecraft/class_3218;)V"
+      },
+      "earth/terrarium/adastra/mixins/common/entities/ZoglinMixin": {
+        "isTargetable": "Lnet/minecraft/class_5136;method_26936(Lnet/minecraft/class_1309;)Z"
+      },
+      "earth/terrarium/adastra/mixins/common/environment/FlowingFluidMixin": {
+        "Lnet/minecraft/world/level/block/state/BlockState;isSolid()Z": "Lnet/minecraft/class_2680;method_51367()Z",
+        "getNewLiquid": "Lnet/minecraft/class_3609;method_15727(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_3610;",
+        "spread": "Lnet/minecraft/class_3609;method_15725(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;)V"
+      },
+      "earth/terrarium/adastra/mixins/common/environment/IceBlockMixin": {
+        "melt": "Lnet/minecraft/class_2386;method_10275(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V",
+        "playerDestroy": "Lnet/minecraft/class_2386;method_9556(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2586;Lnet/minecraft/class_1799;)V"
+      },
+      "earth/terrarium/adastra/mixins/common/environment/WeatheringCopperFullBlockMixin": {
+        "randomTick": "Lnet/minecraft/class_5812;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+      },
+      "earth/terrarium/adastra/mixins/common/gravity/AbstractArrowMixin": {
+        "tick": "Lnet/minecraft/class_1665;method_5773()V"
+      },
+      "earth/terrarium/adastra/mixins/common/gravity/BoatMixin": {
+        "floatBoat": "Lnet/minecraft/class_1690;method_7534()V"
+      },
+      "earth/terrarium/adastra/mixins/common/gravity/FishingHookMixin": {
+        "tick": "Lnet/minecraft/class_1536;method_5773()V"
+      },
+      "earth/terrarium/adastra/mixins/common/gravity/GravityEntityMixin": {
+        "tick": "method_5773()V"
+      },
+      "earth/terrarium/adastra/mixins/common/gravity/ThrowableProjectileMixin": {
+        "getGravity": "Lnet/minecraft/class_1682;method_7490()F"
+      },
+      "earth/terrarium/adastra/mixins/common/gravity/ThrownExperienceBottleMixin": {
+        "getGravity": "Lnet/minecraft/class_1683;method_7490()F"
+      },
+      "earth/terrarium/adastra/mixins/common/gravity/ThrownPotionMixin": {
+        "getGravity": "Lnet/minecraft/class_1686;method_7490()F"
+      },
+      "earth/terrarium/adastra/mixins/common/multipart/ChunkMapMixin": {
+        "addEntity": "Lnet/minecraft/class_3898;method_18701(Lnet/minecraft/class_1297;)V"
+      },
+      "earth/terrarium/adastra/mixins/common/multipart/ServerLevelEntityCallbacksMixin": {
+        "Lnet/minecraft/world/entity/Entity;updateDynamicGameEventListener(Ljava/util/function/BiConsumer;)V": "Lnet/minecraft/class_1297;method_42147(Ljava/util/function/BiConsumer;)V",
+        "net.minecraft.server.level.ServerLevel$EntityCallbacks": "net/minecraft/class_3218$class_5526",
+        "onTrackingEnd(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_3218$class_5526;method_31437(Lnet/minecraft/class_1297;)V",
+        "onTrackingStart(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/class_3218$class_5526;method_31436(Lnet/minecraft/class_1297;)V"
+      },
+      "earth/terrarium/adastra/mixins/common/multipart/ServerLevelMixin": {
+        "getEntityOrPart": "Lnet/minecraft/class_3218;method_31424(I)Lnet/minecraft/class_1297;"
+      },
+      "earth/terrarium/adastra/mixins/common/radio/LivingEntityMixin": {
+        "stopRiding": "Lnet/minecraft/class_1309;method_5848()V"
+      },
+      "earth/terrarium/adastra/mixins/common/radio/ServerPlayerMixin": {
+        "startRiding": "Lnet/minecraft/class_3222;method_5873(Lnet/minecraft/class_1297;Z)Z"
+      }
+    }
+  }
+}

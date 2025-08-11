@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"parent": "builtin/entity",
+	"textures": {
+		"0": "marcusstarwarsmod:white",
+		"particle": "marcusstarwarsmod:white"
+	},
+	"elements": [
+		{
+			"from": [7.6, 5.25, 9.6],
+			"to": [8.4, 31.5, 10.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 5, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 13.5], "texture": "#0"},
+				"east": {"uv": [0.5, 0, 1, 13.5], "texture": "#0"},
+				"south": {"uv": [1, 0, 1.5, 13.5], "texture": "#0"},
+				"west": {"uv": [1.5, 0, 2, 13.5], "texture": "#0"},
+				"up": {"uv": [2.5, 0.5, 2, 0], "texture": "#0"},
+				"down": {"uv": [2.5, 0.5, 2, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 5, 9.5],
+			"to": [8.5, 32, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 5, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 13.5], "texture": "#1"},
+				"east": {"uv": [0.5, 0, 1, 13.5], "texture": "#1"},
+				"south": {"uv": [1, 0, 1.5, 13.5], "texture": "#1"},
+				"west": {"uv": [1.5, 0, 2, 13.5], "texture": "#1"},
+				"up": {"uv": [2.5, 0.5, 2, 0], "texture": "#1"},
+				"down": {"uv": [2.5, 0.5, 2, 1], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 8.5, -0.25],
+			"scale": [1, 0.7, 1]
+		}
+	}
+}

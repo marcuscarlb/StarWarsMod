@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "earth/terrarium/adastra/mixins/fabric/common/ServerPlayerMixin": {
+      "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/class_3244;method_14364(Lnet/minecraft/class_2596;)V",
+      "changeDimension": "Lnet/minecraft/class_3222;method_5731(Lnet/minecraft/class_3218;)Lnet/minecraft/class_1297;"
+    },
+    "earth/terrarium/adastra/mixins/fabric/common/multipart/LevelMixin": {
+      "method_31593": "Lnet/minecraft/class_1937;method_31593(Lnet/minecraft/class_1297;Ljava/util/function/Predicate;Ljava/util/List;Lnet/minecraft/class_1297;)V",
+      "method_47576": "Lnet/minecraft/class_1937;method_47576(Ljava/util/function/Predicate;Ljava/util/List;ILnet/minecraft/class_5575;Lnet/minecraft/class_1297;)Lnet/minecraft/class_7927$class_7928;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "earth/terrarium/adastra/mixins/fabric/common/ServerPlayerMixin": {
+        "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/class_3244;method_14364(Lnet/minecraft/class_2596;)V",
+        "changeDimension": "Lnet/minecraft/class_3222;method_5731(Lnet/minecraft/class_3218;)Lnet/minecraft/class_1297;"
+      },
+      "earth/terrarium/adastra/mixins/fabric/common/multipart/LevelMixin": {
+        "method_31593": "Lnet/minecraft/class_1937;method_31593(Lnet/minecraft/class_1297;Ljava/util/function/Predicate;Ljava/util/List;Lnet/minecraft/class_1297;)V",
+        "method_47576": "Lnet/minecraft/class_1937;method_47576(Ljava/util/function/Predicate;Ljava/util/List;ILnet/minecraft/class_5575;Lnet/minecraft/class_1297;)Lnet/minecraft/class_7927$class_7928;"
+      }
+    }
+  }
+}
